@@ -1,85 +1,118 @@
 ---
-layout: default
+layout: cv
+title: PALLEAU Michel
+lang: en
 ---
 
-Tired of using LaTeX to make your CV look pretty? Can't remember how to set margins in your TeX file? Refusing to compromise and "just use Word"?
+<div id="header" markdown="1">
 
-[markdown-cv](http://elipapa.github.io/markdown-cv/) is a simple template to list all your accomplishments in a readable Markdown file. It uses CSS to style your text into a stylish web page. It can also be printed as PDF.
+# PALLEAU Michel
 
-### what does that mean?
+Embedded Software Engineer -- Expert
 
-Write your CV like this...
+</div>
 
-<img src="img/mdown.png" style="width: 60%; -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);" >
+<div id="side" markdown="1">
 
-and use [jekyll](https://jekyllrb.com/) or [github pages](https://pages.github.com/) to make it look like this..
+![portrait](image/portrait.jpg)
+{: .portrait}
 
-<img src="img/output.png" style="width: 60%; -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);" >
+**EN** [<i class="fa-solid fa-arrow-right-long"></i> **FR**](index_fr.html)
+{: .language}
 
+|:-:|:-:|
+|42 y.o. -- 3 children|[<i class="fa-brands fa-github fa-lg"></i> mic006](https://github.com/mic006)|
+|<i class="fa-solid fa-house"></i> Toulouse -- France|[<i class="fa-brands fa-linkedin fa-lg"></i> michel palleau](https://www.linkedin.com/in/michel-palleau-a273077/)|
 
+[<i class="fa-solid fa-at fa-lg"></i> michel.palleau-at-gmail.com](mailto:michel.palleau-at-gmail.com)
+{: .no-margin}
 
-## Usage
+**English TODO rating** / French native
 
-To start, simply [fork the markdown-cv repo](https://github.com/elipapa/markdown-cv)
+## Synopsis
+{: .synopsis}
 
-![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+Passionate about computer science from my youth, I have now 20 years of professional experience
+in embedded software development. I am specialized in low level software. I have worked in
+the modem mobile phone and automotive industries, dealing with drivers, kernel and embedded applications.
 
-and then [edit directly in github](https://help.github.com/articles/editing-files-in-your-repository/) the `index.md` file
+My dream mission: starting from the project's needs and constraints, define and architecture a solution,
+develop it and bring it to maturity, in a technically challenging context.
 
-![](https://help.github.com/assets/images/help/repository/edit-file-edit-button.png)
+I am passionate, determined, persevering and efficient. I am autonomous and can work alone, but I also enjoy
+teamwork, both locally and internationally.
 
-adding your skills, jobs and education.
+## Programming languages & tools
+- Expert in **𝐂** & <i class="fa-brands fa-python fa-xl"></i> **Python**
+- Proficient in **𝐂++**, GoogleMock, Makefile, CMake, Shell, <i class="fa-brands fa-java fa-xl"></i> Java, PlantUML
+- OS: **GNU / Linux** (pro & perso)
+- Version: <span class="git"><i class="fa-brands fa-git-alt fa-xl"></i> <i class="fa-brands fa-git fa-lg"></i></span>
+{: .page-break}
 
-![](https://help.github.com/assets/images/help/repository/edit-readme-light.png)
+## Work environment
+- Teamwork, peer work
+- Technical mentoring of juniors
+- International and multi-cultural environment
+- Continuous improvment
+- Review and **moderation** of code changes
+- **Agile methodology**, ![SAFe 5 Practitioner badge](image/safe_badge.png#float3)
+**SAFe** certified <br><small>(SAFe 5 Practitioner -- 21 Oct 2021)</small>
+- Documentation using annotated code with **Doxygen**, Graphviz & PlantUML
 
-To transform your plain text CV into a beautiful looking HTML page and share it you then have two options:
+</div>
 
-### 1) Using Github Pages to publish it online
+<div id="main" markdown="1">
 
-1. Delete the existing `gh-pages` branch from your fork. It will only contain this webpage. You can either use git or [the github web interface](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/#deleting-a-branch)
-2. Create a new branch called `gh-pages` (which will then be a copy of master)
-3. Head to *yourusername*.github.io/markdown-cv to see your CV live.
+## Embedded software skills
+- **Architecture** & modular development of software
+- Management of hardware peripherals, development of driver
+- Development with **real-time** constraints, interrupts management, multi-threads & multi-processes system (RTOS & Linux)
+- **Optimization** of memory & CPU resources
+- Constraints of **NAND Flash memory**: limit write operations, access by blocks, data retention strategy
+- Proficient in communication busses: CAN, LIN, Ethernet, UART
+- Knowledge and experience on Classic & Adaptive ![Autosar](image/autosar.svg#inline) architectures
+- **Unit testing**, code coverage
+- Integration on **ARM** target
+- Development of scripts & tools (Python)
+- Analysis & resolution of **complex problems**
+- Analysis & review of internal & external technical documentation
+- Preparation & presentation of technical slide decks (NAND Flash memory)
 
-Any change you want to make to your CV from then on would have to be done on the `gh-pages` branch and will be immediately rendered by Github Pages.
+## Experience
 
-### 2) Build it locally
-1. [install jekyll](https://jekyllrb.com/docs/installation/) on your computer. `gem install jekyll` will do for most users.
-2. Clone your fork on your computer
-3. Type `jekyll serve` and you'll be able to see your CV on your local host (the default address is http://localhost:4000).
-4. You can edit the `index.md` file and see changes live in your browser.
+### Continental Automotive (Toulouse -- France) ![Continental](image/continental.svg#float)
 
-## How do I print the PDF?
-Whether you used Github Pages or a local installation of Jekyll, to print a PDF just press *Print* in your browser. Print specific [CSS media queries](http://www.joshuawinn.com/css-print-media-query/) will take care of the styling.
+<span class="date">2020 -- Now</span> **Expert engineer on telematics platform, embedded Linux**
+- development & maintenance of kernel drivers, libraries & applications
+- expert knowledge on NAND Flash constraints (raw NAND & eMMC)
+- architecture, development & deployment of a generic solution to perform Flash maintenance
 
-## is this the only style available?
+<span class="date">2018 -- 2020</span> **Architect & senior developer for FOTA solution, embedded Linux**
+- integration of the Redbend Flash Over the Air solution ![Harman](image/harman.svg#inline2)
+- architecture, development & support of the interface layer to integrate the RedBend solution on an Adaptive Autosar platform
 
-The included CSS renders your CV in different styles:
+<span class="date">2013 -- 2018</span> **SW Function Responsible of Communication stack, real-time MCU**
+- technical management of 6 people in 3 locations (India, Romania, France)
+- development & support of the Communication stack (CAN, LIN, UART) on a lightweight internal solution and on Classic Autosar platform
+- integration, validation & performance test of the Ethernet stack on Classic Autosar platform
+{: .page-break}
 
-- `kjhealy` the original default, inspired by [kjhealy's vita
-template](https://github.com/kjhealy/kjh-vita)
+### Motorola (Toulouse -- France) ![Motorola](image/motorola.png#float)
 
-<img src="img/styles/kjhealy.png" style="width: 60%; -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);" >
+<span class="date">2003 -- 2013</span> **Embedded software engineer, mobile phone modem, layer 1**
+- development & maintenance of HW peripherals drivers for modem
+- full re-architecture & extension of the RF management layer to support a new multi-core & multi-RF design
+- follow-up of the full cycle of a new RF introduction; documentation analysis, architecture & development of the RF driver, first integration on target, then development, optimization & stabilization until final release
 
-- `davewhipp` is a tweaked version of `kjhealy`, with bigger fonts and dates
-  right aligned, authored by [David Whipp](https://davewhipp.github.io/markdown-cv/)
+## Education
 
-<img src="img/styles/davewhipp.png" style="width: 60%; -webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222);" >
+<span class="date">2000 -- 2003</span> **Graduate Engineer, specialized in software engineering at CentraleSupélec** (91-France)
 
-To change the default style, one needs to simply change `site` the variable in the
-`_config.yml` file.
+<span class="date">1998 -- 2000</span> **Higher School Preparatory Classes**, Maths & Physics at lycée Descartes at Tours (France)
 
-Any other styling is possible. More CSS style contributions and forks are welcome!
+## Interests
 
+- Technology enthusiast, I am following new technologies and perform self-training on personal projects (Raspberry Pi <i class="fa-brands fa-raspberry-pi fa-lg"></i>, algorithm, HTML <i class="fa-brands fa-html5 fa-lg"></i>, CSS <i class="fa-brands fa-css3-alt fa-lg"></i>)
+- Fan of mathematics & logic games, and in particular Contract Bridge ![FFB](image/ffb.svg#inline2)
 
-
-### Author
-
-Eliseo Papa ([Twitter](http://twitter.com/elipapa)/[GitHub](http://github.com/elipapa)/[website](https://elipapa.github.io)).
-
-![Eliseo Papa](https://s.gravatar.com/avatar/eae1f0c01afda2bed9ce9cb88f6873f6?s=100)
-
-### License
-
-[MIT License](https://github.com/elipapa/markdown-cv/blob/master/LICENSE)
-
-<a href="https://github.com/elipapa/markdown-cv" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+</div>

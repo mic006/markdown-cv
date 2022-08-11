@@ -1,0 +1,30 @@
+/* inline images, aligned with text, and sized appropriately */
+img[src*='#inline'] {
+    height: 1em;
+    vertical-align: middle;
+    width: auto;
+}
+
+img[src*='#inline1.5'] {
+    height: 1.5em;
+}
+
+img[src*='#inline2'] {
+    height: 2em;
+}
+
+img[src*='#inline4'] {
+    height: 4em;
+}
+
+/* floating images */
+img[src*='#float'] {
+    height: 2em;
+    width: auto;
+    float: right;
+    margin-left: 20px;
+}
+
+img[src*='#float3'] {
+    height: 3em;
+}

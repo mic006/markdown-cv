@@ -1,0 +1,26 @@
+<!doctype html>
+<html{% if page.lang %} lang="{{ page.lang }}"{% endif %}>
+
+<head>
+    <meta charset=utf-8 />
+    <title> {% if page.title %} {{ page.title }} | {% endif %} CV</title>
+    <link href="media/base.css" type="text/css" rel="stylesheet">
+    <link href="media/{{ site.style }}.css" type="text/css" rel="stylesheet">
+    <link href="media/{{ site.style }}-screen.css" type="text/css" rel="stylesheet" media="screen">
+    <link href="media/{{ site.style }}-print.css" type="text/css" rel="stylesheet" media="print">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css"
+        integrity="sha512-R+xPS2VPCAFvLRy+I4PgbwkWjw1z5B5gNDYgJN5LfzV4gGNeRQyVrY7Uk59rX+c8tzz63j8DeZPLqmXvBxj8pA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/brands.min.css"
+        integrity="sha512-nS1/hdh2b0U8SeA8tlo7QblY6rY6C+MgkZIeRzJQQvMsFfMQFUKp+cgMN2Uuy+OtbQ4RoLMIlO2iF7bIEY3Oyg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/solid.min.css"
+        integrity="sha512-EvFBzDO3WBynQTyPJI+wLCiV0DFXzOazn6aoy/bGjuIhGCZFh8ObhV/nVgDgL0HZYC34D89REh6DOfeJEWMwgg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body id="cv">
+    {{ content }}
+</body>
+
+</html>

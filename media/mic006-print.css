@@ -1,0 +1,50 @@
+#cv {
+    grid-template-columns: 3fr 7fr;
+}
+
+/* font size */
+body {
+    font-size: 10pt;
+}
+
+#side {
+    font-size: 9pt;
+}
+
+/* page breaks */
+p,
+ul,
+li {
+    break-before: avoid;
+    break-inside: avoid;
+}
+
+h2,
+h3 {
+    break-after: avoid;
+}
+
+.page-break {
+    break-after: page;
+}
+
+/* hack: page break leave a blank on 2nd page, so align the side text */
+#side .page-break+h2 {
+    margin-top: 8em;
+}
+
+/* hide language link */
+p.language a {
+    display: none;
+}
+
+/* hide 2nd column of information */
+#side table tr td:nth-child(2) {
+    display: none;
+}
+
+/* hints for printing */
+@page {
+    margin: 3mm;
+    size: A4 portrait;
+}

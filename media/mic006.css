@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+
+/* grid layout */
+#cv {
+    display: grid;
+    grid-template-areas: "side header""side main";
+    grid-area: main;
+}
+
+#header {
+    grid-area: header;
+    padding: 20px;
+    background-color: #90caf9;
+}
+
+#side {
+    grid-area: side;
+    padding: 20px;
+    background-color: #1565c0;
+    color: white;
+}
+
+#main {
+    grid-area: main;
+    padding: 20px;
+}
+
+/* generic settings */
+body {
+    font-family: Verdana, sans-serif;
+    line-height: 150%;
+    margin: 1em;
+    text-align: justify;
+}
+
+em {
+    font-weight: bold;
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: circle;
+    padding-inline-start: 2em;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.15em;
+}
+
+small {
+    font-size: 75%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #90caf9;
+    text-decoration: underline;
+}
+
+/* margin above titles */
+h1,
+h2,
+h3 {
+    margin-block: 0 0;
+}
+
+p+h2,
+p+h3,
+ul+h2,
+ul+h3 {
+    margin-top: 1.5em;
+}
+
+h2+h3 {
+    margin-top: 1em;
+}
+
+/* titles color */
+#main h2 {
+    color: #0d47a1;
+}
+
+#main h3 {
+    color: #1565c0;
+}
+
+/* header format */
+#header p {
+    margin-bottom: 0;
+    color: #002071;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+/* portrait format */
+p.portrait {
+    text-align: center;
+}
+
+p.portrait img {
+    border-radius: 50%;
+    max-width: 80%;
+}
+
+/* language display */
+p.language {
+    text-align: center;
+}
+
+/* table below portrait */
+#side table {
+    width: 100%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+/* hand writting font for synopsis text */
+.synopsis~p {
+    font-family: 'Courgette', cursive;
+}
+
+span.date {
+    font-size: 80%;
+    background-color: #e3f2fd;
+    min-width: 7em;
+    text-align: center;
+    display: inline-block;
+}
+
+
+/* git logo */
+i.fa-git-alt {
+    color: #f54d27;
+}
+
+i.fa-git {
+    color: #413932;
+}
+
+span.git {
+    background-color: #efefe7;
+    padding: 5px;
+}
+
+/*
+p {
+    position: relative;
+    left: 33%;
+    margin-bottom: 0.7em;
+    margin-right: 0;
+    width: 65%;
+}
+
+code {
+    font: normal normal;
+    font-size: 60%;
+    font-family: Menlo, monospace, sans-serif;
+    color: #aaa;
+}
+
+p code {
+    position: absolute;
+    left: -14%;
+}
+
+
+ul {
+    position: relative;
+    left: 33%;
+    width: 65%;
+    margin-bottom: 1.5em;
+    margin-top: -0.5em;
+}
+
+li {
+    padding-left: 1.25em;
+    text-indent: -1.25em;
+}
+
+li ul {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin-top: 0.25em;
+}
+
+h1 {
+    text-align: left;
+    font-size: 3em;
+    line-height: 1em;
+    position: relative;
+    left: 33%;
+}
+
+h1+p {
+font-style: italic;
+font-size: 110%;
+}
+
+h2 {
+    font-size: 1.1em;
+    color: #a00;
+    margin-top: 3em;
+    position: relative;
+    top: 1.4em;
+    text-align: right;
+    width: 20%;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 2em;
+    position: relative;
+    top: 1.7em;
+    text-align: right;
+    width: 20%;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #39f
+}
+
+#webaddress {
+    margin-top: 1em;
+    position: relative;
+    left: 33%;
+    color: #aaa;
+    font-family: Menlo, monospace, sans-serif;
+    font-size: 80%;
+}
+
+#webaddress a {
+    text-decoration: none;
+}
+
+em {
+    font-weight: bold;
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+#address {
+    display: none;
+}
+
+*/
