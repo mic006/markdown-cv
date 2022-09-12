@@ -27,7 +27,8 @@ Ingénieur développement logiciel embarqué -- Expert
 [<i class="fa-solid fa-at fa-lg"></i> michel.palleau-at-gmail.com](mailto:michel.palleau-at-gmail.com)
 {: .no-margin}
 
-**Anglais courant** / Français langue maternelle
+**Anglais courant ~B2/C1**<br>
+Français langue maternelle
 
 ## Synopsis
 {: .synopsis}

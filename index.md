@@ -27,7 +27,8 @@ Embedded Software Engineer -- Expert
 [<i class="fa-solid fa-at fa-lg"></i> michel.palleau-at-gmail.com](mailto:michel.palleau-at-gmail.com)
 {: .no-margin}
 
-**English TODO rating** / French native
+**English ~B2/C1 level**<br>
+French native
 
 ## Synopsis
 {: .synopsis}
@@ -42,7 +43,7 @@ develop it and bring it to maturity, in a technically challenging context.
 I am passionate, determined, persevering and efficient. I am autonomous and can work alone, but I also enjoy
 teamwork, both locally and internationally.
 
-## Programming languages & tools
+## Prog. languages & tools
 - Expert in **𝐂** & <i class="fa-brands fa-python fa-xl"></i> **Python**
 - Proficient in **𝐂++**, GoogleMock, Makefile, CMake, Shell, <i class="fa-brands fa-java fa-xl"></i> Java, PlantUML
 - OS: **GNU / Linux** (pro & perso)
