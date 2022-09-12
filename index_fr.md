@@ -36,7 +36,7 @@ Passionné depuis tout jeune par l'informatique, j'ai maintenant 20 ans d'expér
 en développement de logiciel embarqué. Je suis spécialisé dans les couches basses, et j'ai travaillé
 dans les domaines de la téléphonie mobile et de l'automobile, côté driver, kernel et aussi applicatif embarqué.
 
-Ma mission idéale: partir des besoins et contraintes projet pour définir et concevoir une solution, la développer et
+Ma mission idéale&#8239;: partir des besoins et contraintes projet pour définir et concevoir une solution, la développer et
 l'amener à maturité, le tout en environnement contraint.
 
 Je suis passionné, déterminé, persévérant et efficace. Je peux travailler seul, mais j'apprécie aussi
@@ -45,12 +45,12 @@ le travail en équipe, tant en local qu'à l'international.
 ## Langages et outils
 - Expert en **𝐂** et <i class="fa-brands fa-python fa-xl"></i> **Python**
 - Maîtrise de **𝐂++**, GoogleMock, Makefile, CMake, Shell, <i class="fa-brands fa-java fa-xl"></i> Java, PlantUML
-- OS: **GNU / Linux** (pro et perso)
-- Version: <span class="git"><i class="fa-brands fa-git-alt fa-xl"></i> <i class="fa-brands fa-git fa-lg"></i></span>
+- OS&#8239;: **GNU / Linux** (pro et perso)
+- Version&#8239;: <span class="git"><i class="fa-brands fa-git-alt fa-xl"></i> <i class="fa-brands fa-git fa-lg"></i></span>
 {: .page-break}
 
 ## Qualité logicielle
-- Travail en équipe
+- Travail en équipe, en binôme
 - Encadrement technique des juniors
 - Environnement international et multi-culturel
 - Amélioration continue
@@ -69,7 +69,7 @@ certification **SAFe** <br><small>(SAFe 5 Practitioner -- 21 Oct 2021)</small>
 - Développement avec contraintes **temps-réel**, gestion d'interruptions, système multitâches et multicœurs (RTOS et Linux)
 - **Optimisation** des ressources mémoires, CPU
 - Contraintes des systèmes à base de **mémoire flash NAND**: limitation des écritures, accès par bloc, stratégie de rétention des données
-- Maîtrise des bus de communication: CAN, LIN, Ethernet, UART
+- Maîtrise des bus de communication&#8239;: CAN, LIN, Ethernet, UART
 - Connaissance des architectures Classic & Adaptive ![Autosar](image/autosar.svg#inline)
 - **Test unitaire**, couverture de tests
 - Intégration sur système cible **ARM**
@@ -83,26 +83,26 @@ certification **SAFe** <br><small>(SAFe 5 Practitioner -- 21 Oct 2021)</small>
 ### Continental Automotive (Toulouse -- France) ![Continental](image/continental.svg#float)
 
 <span class="date">2020 -- Auj</span> **Ingénieur Expert sur plateforme télématique, Linux embarqué**
-- développement et maintenance de drivers kernel, bibliothèques et applications
-- expertise sur les problématiques de maintenance de la mémoire flash (raw NAND et eMMC)
-- architecture, développement et déploiement d'une solution générique de maintenance de mémoire flash
+- Développement et maintenance de drivers kernel, bibliothèques et applications
+- Expertise sur les problématiques de maintenance de la mémoire flash (raw NAND et eMMC)
+- Architecture, développement et déploiement d'une solution générique de maintenance de mémoire flash
 
 <span class="date">2018 -- 2020</span> **Architecte développement solution FOTA, Linux embarqué**
-- intégration de la solution Flash Over the Air de Redbend ![Harman](image/harman.svg#inline2)
-- architecture, développement et support de la couche interface pour intégrer la solution RedBend sur une plateforme Adaptive Autosar
+- Intégration de la solution Flash Over the Air de Redbend ![Harman](image/harman.svg#inline2)
+- Architecture, développement et support de la couche interface pour intégrer la solution RedBend sur une plateforme Adaptive Autosar
 
 <span class="date">2013 -- 2018</span> **Responsable fonction Communication, MCU temps-réel**
-- encadrement de 6 personnes en multi-sites (Inde, Roumanie, France)
-- développement et support de la pile Communication (CAN, LIN, UART) sur une solution légère propriétaire et sur plateforme Classic Autosar
-- intégration, validation et vérification des performances de la pile Ethernet sur plateforme Classic Autosar
+- Encadrement de 6 personnes en multi-sites (Inde, Roumanie, France)
+- Développement et support de la pile Communication (CAN, LIN, UART) sur une solution légère propriétaire et sur plateforme Classic Autosar
+- Intégration, validation et vérification des performances de la pile Ethernet sur plateforme Classic Autosar
 {: .page-break}
 
 ### Motorola (Toulouse -- France) ![Motorola](image/motorola.png#float)
 
 <span class="date">2003 -- 2013</span> **Ingénieur développement logiciel embarqué, modem de téléphone portable** 
-- développement et maintenance de drivers pour périphériques HW et modem L1 pour la technologie LTE
-- ré-architecture complète et extension de la couche de gestion RF pour supporter une nouvelle architecture multicœurs et multi RF
-- suivi de bout en bout d'une évolution de la plate-forme avec une nouvelle radio; analyse de la documentation fournisseur, architecture et développement du driver RF, première intégration sur cible, puis développement, optimisation et stabilisation jusqu'à la commercialisation
+- Développement et maintenance de drivers pour périphériques HW et modem L1 pour la technologie LTE
+- Ré-architecture complète et extension de la couche de gestion RF pour supporter une nouvelle architecture multicœurs et multi RF
+- Suivi de bout en bout d'une évolution de la plate-forme avec une nouvelle radio&#8239;; analyse de la documentation fournisseur, architecture et développement du driver RF, première intégration sur cible, puis développement, optimisation et stabilisation jusqu'à la commercialisation
 
 ## Formation initiale
 

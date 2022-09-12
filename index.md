@@ -49,7 +49,7 @@ teamwork, both locally and internationally.
 - Version: <span class="git"><i class="fa-brands fa-git-alt fa-xl"></i> <i class="fa-brands fa-git fa-lg"></i></span>
 {: .page-break}
 
-## Work environment
+## Work environment & SW quality
 - Teamwork, peer work
 - Technical mentoring of juniors
 - International and multi-cultural environment
@@ -83,26 +83,26 @@ teamwork, both locally and internationally.
 ### Continental Automotive (Toulouse -- France) ![Continental](image/continental.svg#float)
 
 <span class="date">2020 -- Now</span> **Expert engineer on telematics platform, embedded Linux**
-- development & maintenance of kernel drivers, libraries & applications
-- expert knowledge on NAND Flash constraints (raw NAND & eMMC)
-- architecture, development & deployment of a generic solution to perform Flash maintenance
+- Development & maintenance of kernel drivers, libraries & applications
+- Expert knowledge on NAND Flash constraints (raw NAND & eMMC)
+- Architecture, development & deployment of a generic solution to perform Flash maintenance
 
 <span class="date">2018 -- 2020</span> **Architect & senior developer for FOTA solution, embedded Linux**
-- integration of the Redbend Flash Over the Air solution ![Harman](image/harman.svg#inline2)
-- architecture, development & support of the interface layer to integrate the RedBend solution on an Adaptive Autosar platform
+- Integration of the Redbend Flash Over the Air solution ![Harman](image/harman.svg#inline2)
+- Architecture, development & support of the interface layer to integrate the RedBend solution on an Adaptive Autosar platform
 
 <span class="date">2013 -- 2018</span> **SW Function Responsible of Communication stack, real-time MCU**
-- technical management of 6 people in 3 locations (India, Romania, France)
-- development & support of the Communication stack (CAN, LIN, UART) on a lightweight internal solution and on Classic Autosar platform
-- integration, validation & performance test of the Ethernet stack on Classic Autosar platform
+- Technical management of 6 people in 3 locations (India, Romania, France)
+- Development & support of the Communication stack (CAN, LIN, UART) on a lightweight internal solution and on Classic Autosar platform
+- Integration, validation & performance test of the Ethernet stack on Classic Autosar platform
 {: .page-break}
 
 ### Motorola (Toulouse -- France) ![Motorola](image/motorola.png#float)
 
 <span class="date">2003 -- 2013</span> **Embedded software engineer, mobile phone modem, layer 1**
-- development & maintenance of HW peripherals drivers for modem
-- full re-architecture & extension of the RF management layer to support a new multi-core & multi-RF design
-- follow-up of the full cycle of a new RF introduction; documentation analysis, architecture & development of the RF driver, first integration on target, then development, optimization & stabilization until final release
+- Development & maintenance of HW peripherals drivers for modem
+- Full re-architecture & extension of the RF management layer to support a new multi-core & multi-RF design
+- Follow-up of the full cycle of a new RF introduction; documentation analysis, architecture & development of the RF driver, first integration on target, then development, optimization & stabilization until final release
 
 ## Education
 
