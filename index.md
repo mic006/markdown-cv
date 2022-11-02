@@ -37,7 +37,7 @@ Passionate about computer science from my youth, I have now 20 years of professi
 in embedded software development. I am specialized in low level software. I have worked in
 the modem mobile phone and automotive industries, dealing with drivers, kernel and embedded applications.
 
-My dream mission: starting from the project's needs and constraints, define and architecture a solution,
+My dream mission: starting from the project's needs and constraints, define and architect a solution,
 develop it and bring it to maturity, in a technically challenging context.
 
 I am passionate, determined, persevering and efficient. I am autonomous and can work alone, but I also enjoy
